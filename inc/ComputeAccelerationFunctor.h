@@ -64,10 +64,10 @@
  **/
 
 // Tests here for the udpate
-//#define ATOMIC_UPDATE
+#define ATOMIC_UPDATE
 //#define SCRATCH_UPDATE
 //#define CUSTOM_REDUCTION
-#define TRIPLE_SCALAR_REDUCTION
+//#define TRIPLE_SCALAR_REDUCTION
 
 namespace kokkos_virtual {
 /**
