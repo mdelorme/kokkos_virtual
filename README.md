@@ -22,3 +22,5 @@ While this specific solution can be efficient "user-wise" it is mostly implement
 This approach, while standard in computer-science is made very difficult in Kokkos because of [virtualization](https://github.com/kokkos/kokkos/wiki/Kokkos-and-Virtual-Functions) and the way functors are allocated on devices. Such an approach would work perfectly on a CPU-only simulation but using GPUs, the allocation must be done carefully on the GPUs to make sure the virtual-tables of inheriting classes are not pointing to memory space outside the device.
 
 This miniapp is made to test different solutions using various degrees of complexity to tackle this problem in a generic manner.
+
+## More information on the [Wiki](https://github.com/mdelorme/kokkos_virtual/wiki)
